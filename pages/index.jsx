@@ -28,7 +28,7 @@ export default function Home() {
 
             <Button />
 
-            <Image className={styles.model} src="/images/model.png" width={263} height={342.53} quality={100}></Image>
+            <Image className={styles.model} src="/images/model.png" width={263} height={342.53} quality={100} alt='imagem de uma mulher negra de moletom verde sorrindo'></Image>
 
             <Statistics />
          </header>
@@ -57,7 +57,7 @@ export default function Home() {
 
             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
             
-            <Image src="/images/doctor.png" width={327} height={282} priority></Image>
+            <Image src="/images/doctor.png" width={327} height={282} priority alt='imagem de um doutor'></Image>
          </section>
 
          <section className={styles.contact}>
@@ -75,7 +75,7 @@ export default function Home() {
 
             <Button />
 
-            <Image src="/images/pessoaNoCelular.png" width={324} height={213}></Image>
+            <Image src="/images/pessoaNoCelular.png" width={324} height={213}alt='imagem de uma pessoa usando o celular e sorrindo'></Image>
          </section>
       </>
    )
