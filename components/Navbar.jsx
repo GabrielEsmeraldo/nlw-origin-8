@@ -7,7 +7,6 @@ export default function Navbar() {
 
    const toggleMenu = () => {
       setMenuToggle(!MenuToggle)
-      console.log('disparou')
    }
 
    useEffect(() => {

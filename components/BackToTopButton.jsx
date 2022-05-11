@@ -11,14 +11,7 @@ export default function BackToTopButton() {
          setScrollY(window.scrollY);
       };
 
-      handleScroll();
-
       window.addEventListener('scroll', handleScroll);
-
-      return () => {
-         window.removeEventListener('scroll', handleScroll);
-      };
-
    }, []);
 
    useEffect(() => {

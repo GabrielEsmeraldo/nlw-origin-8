@@ -1,7 +1,6 @@
 import styles from "../styles/Button.module.css"
 
 export default function Button(props) {
-   { console.log(props.apearence) }
    
    return (
       <button className={styles.primary_button}><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
