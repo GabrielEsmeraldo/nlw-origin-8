@@ -1,0 +1,14 @@
+.subtitle {
+   font-size: 1.4rem;
+   color: var(--primary-color);
+   margin-top: calc(4.1rem + var(--nav-height));
+   margin-bottom: 1.6rem;
+   text-transform: uppercase;
+}
+
+.title {
+   font-size: 3.4rem;
+   line-height: 4.42rem;
+   color: var(--gray-headline);
+   margin-bottom: 2.4rem;
+}

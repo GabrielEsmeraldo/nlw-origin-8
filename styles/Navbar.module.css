@@ -1,0 +1,261 @@
+.navbar {
+   width: 100vw;
+
+   display: flex;
+   justify-content: space-between;
+
+   padding: 2.7rem 3.4rem;
+
+   position: fixed;
+   z-index: 1;
+   transition-duration: 0.2s;
+}
+
+.navbar div {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.navbar .close_menu,
+.navbar .menu_links,
+.navbar .social_icons {
+   display: none;
+}
+
+.navbar button {
+   background-color: rgba(0, 255, 255, 0);
+   border: none;
+}
+
+.navbar.open {
+   background-color: var(--primary-color);
+   padding-top: 0;
+   width: 100vw;
+   height: 100vh;
+}
+
+.navbar.open .open_menu {
+   display: none;
+}
+
+.navbar.open .close_menu,
+.navbar.open .menu_links {
+   display: block;
+}
+
+.navbar.open .logo path {
+   fill: white;
+}
+
+.navbar.open .open_menu svg:nth-child(1) path {
+   stroke: white;
+}
+
+.navbar.open div {
+   width: 100%;
+   height: 7.2rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.navbar.open .menu_links {
+   padding-top: calc(6rem + var(--nav-height));
+   list-style: none;
+   position: absolute;
+   width: 100vw;
+   left: 0;
+   font-family: 'DM Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 2.4rem;
+   line-height: 3.1rem;
+   text-align: center;
+   color: white;
+   z-index: -1;
+}
+
+.navbar.open .menu_links li {
+   padding-bottom: 4.8rem;
+}
+
+.navbar.open li button {
+   background-color: white;
+   border-radius: 4rem;
+   padding: 1.6rem 3.2rem;
+   font-weight: 700;
+   font-size: 1.8rem;
+   line-height: 2.3rem;
+   text-transform: uppercase;
+   color: var(--primary-color);
+}
+
+.navbar.open .social_icons {
+   display: flex;
+   justify-content: center;
+   gap: 1.6rem;
+}
+
+.navbar.scroll {
+   background-color: var(--primary-color);
+   transition-duration: 0.2s;
+}
+
+.navbar.scroll .logo path {
+   fill: white;
+}
+
+.navbar.scroll .open_menu path {
+   stroke: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .navbar {
+   display: flex;
+   justify-content: space-between;
+   width: 100vw;
+   height: var(--nav-height);
+   position: fixed;
+   top: 0;
+   z-index: 3;
+}
+
+.navbar button:nth-child(2) {
+   background-color: rgba(0, 0, 0, 0);
+   border: none;
+}
+
+.scroll {
+   box-sizing: border-box;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 100vw;
+   height: var(--nav-height);
+   position: fixed;
+   top: 0;
+   z-index: 3;
+   background-color: var(--primary-color);
+}
+
+.scroll button svg path {
+   stroke: white;
+}
+
+.scroll button {
+   background-color: rgba(240, 248, 255, 0);
+   border: none;
+}
+
+.scroll .logo path {
+   fill: white;
+}
+
+.scroll svg:nth-child(2) path {
+   stroke: white;
+}
+
+.navbar_responsive {
+   padding-top: 1.6rem;
+   padding-inline: 2.4rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: absolute;
+   background-color: var(--primary-color);
+   width: 100%;
+   height: 100vh;
+   top: 0;
+   margin-inline: auto;
+
+}
+
+.navbar_responsive_close {
+   display: none;
+}
+
+.navbar_responsive div {
+   padding: 1.2rem 3rem;
+
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+}
+
+.navbar_responsive ul {
+   padding-top: 13.2rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+   list-style: none;
+}
+
+.navbar_responsive ul ul {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   padding: 0;
+   margin: 0;
+}
+
+.navbar_responsive ul ul li {
+   padding: 0 1.6rem;
+}
+
+.navbar_responsive ul li {
+   font-size: 2.4rem;
+   color: white;
+   padding-bottom: 4.8rem;
+}
+
+.navbar_responsive button {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: var(--primary-color);
+   text-transform: uppercase;
+   font-family: 'DM Sans', sans-serif;
+   font-size: 1.8rem;
+   font-weight: 700;
+   padding: 1.6rem 3.2rem;
+   background-color: white;
+   border-radius: 4rem;
+   border: none;
+   outline: none;
+}
+
+.navbar_responsive div button {
+   margin: 0;
+   padding: 0;
+   background-color: rgba(0, 0, 0, 0);
+} */
