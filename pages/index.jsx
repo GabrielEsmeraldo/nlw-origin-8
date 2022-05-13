@@ -37,9 +37,9 @@ export default function Home() {
             <Statistics />
          </header>
 
-         <section className={styles.services}>
+         <section id='servicos' className={styles.services}>
             <Header
-               subtitle='serviços'
+               subtitle='servicos'
                title='Como podemos ajudá-lo a se sentir melhor?'>
             </Header>
 
@@ -53,7 +53,7 @@ export default function Home() {
             </div>
          </section>
 
-         <section className={styles.about}>
+         <section id='sobre' className={styles.about}>
             <Header
                subtitle='Sobre nós'
                title='Entenda quem somos e por que existimos'>

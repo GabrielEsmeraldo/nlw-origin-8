@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import styles from "../styles/Navbar.module.css"
 
@@ -49,6 +50,12 @@ export default function Navbar() {
       }
    })
 
+   const closeMenu = () => {
+
+      setMenuToggle(!MenuToggle)
+
+   }
+
    return (
       <nav id="responsive_navbar" className={`${styles.navbar}`}>
          <div>
@@ -81,9 +88,9 @@ export default function Navbar() {
          </div>
 
          <ul className={styles.menu_links}>
-            <li>Início</li>
-            <li>Sobre</li>
-            <li>Serviços</li>
+            <li onClick={closeMenu}><Link href='#home'>Início</Link></li>
+            <li onClick={closeMenu}><Link href='#sobre'>Sobre</Link></li>
+            <li onClick={closeMenu}><Link href='#servicos'>Serviços</Link></li>
             <li><button>Agende sua consulta</button></li>
             <li>
                <ul className={styles.social_icons}>

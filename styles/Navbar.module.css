@@ -35,6 +35,11 @@
    height: 100vh;
 }
 
+.navbar.open a {
+   color: white;
+   cursor: pointer;
+}
+
 .navbar.open .open_menu {
    display: none;
 }
@@ -60,7 +65,7 @@
    align-items: center;
 }
 
-.navbar.open .menu_links {
+.navbar.open .menu_links{
    padding-top: calc(6rem + var(--nav-height));
    list-style: none;
    position: absolute;

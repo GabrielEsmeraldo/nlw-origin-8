@@ -34,6 +34,5 @@ export default function BackToTopButton() {
             <path d="M13 20L20 13L27 20" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
          </svg>
       </Link>
-
    )
 }
