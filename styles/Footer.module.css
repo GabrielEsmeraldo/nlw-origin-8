@@ -29,6 +29,12 @@
 @media screen and (min-width: 1024px) {
    .footer {
       flex-direction: row;
-      gap: 72.9rem;
+   }
+
+   .footer .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 111rem;
    }
 }

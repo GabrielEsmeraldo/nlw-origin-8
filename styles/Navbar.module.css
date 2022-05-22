@@ -119,6 +119,11 @@
 
    .navbar {
       display: flex;
+      justify-content: center;
+   }
+
+   .navbar .container {
+      width: 111rem;
       align-items: center;
    }
 
