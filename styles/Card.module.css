@@ -3,6 +3,7 @@
    padding: 2.4rem;
    background-color: white;
    border: 1px solid var(--brand-green-light);
+   max-width: 34.7rem;
 }
 
 .card h3 {

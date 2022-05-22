@@ -23,3 +23,24 @@
    color: var(--primary-color);
    line-height: 150%;
 }
+
+@media screen and (min-width: 1024px) {
+   .stats {
+      flex-direction: row;
+      max-width: 112rem;
+      justify-content: space-around;
+      flex: 1;
+   }
+
+   .stats div {
+      flex: 1;
+   }
+
+   .stats div p {
+      margin-bottom: 0rem;
+   }
+
+   .stats div + div {
+      border-left: 1px solid var(--brand-green);
+   }
+}

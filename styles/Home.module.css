@@ -1,12 +1,18 @@
 .container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
    padding: 0 2.4rem;
+   max-width: 111rem;
+   margin: auto auto;
 }
 
 .header::before {
    content: "";
    position: absolute;
    background-color: var(--green-light);
-   width: 100vw;
+   width: 100%;
    display: block;
    height: 110rem;
    z-index: -1;
@@ -23,6 +29,18 @@
    align-items: center;
 }
 
+.header_content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.header .info {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
 .header p {
    font-weight: 400;
    color: var(--gray-paragraph);
@@ -33,6 +51,12 @@
 
 .header button {
    margin-bottom: 6rem;
+   max-width: 26.3rem;
+}
+
+.image_container {
+   position: relative;
+   bottom: -0.4rem;
 }
 
 
@@ -49,30 +73,20 @@
    gap: 3.2rem;
 }
 
+.services .card_container {
+   align-items: center;
+}
+
 /*about */
 .about {
-   padding: 10rem 2.4rem;
+   padding: 10rem 0;
    background-color: var(--brand-beige);
 }
 
 .about h4 {
-   font-weight: 700;
-   font-size: 1.4rem;
-   line-height: 150%;
-   letter-spacing: 0.08em;
-   color: var(--primary-color);
-   text-transform: uppercase;
-   padding-bottom: 1.6rem;
-   text-align: center;
-}
-
-.about h2 {
-   font-weight: 700;
-   font-size: 3rem;
-   line-height: 3.9rem;
-   color: var(--gray-headline);
-   padding-bottom: 2.4rem;
-   text-align: center;
+   display: flex;
+   flex: start;
+   width: 100%;
 }
 
 .about p {
@@ -80,12 +94,20 @@
    font-size: 1.6rem;
    line-height: 150%;
    padding-bottom: 6rem;
-   text-align: center;
 }
 
 /* contato */
 .contact {
    padding: 10rem 2.4rem;
+}
+
+.contact .contact_content {
+   flex-direction: column;
+   width: 100%;
+}
+
+.contact .container {
+   padding: 0;
 }
 
 .contact h2 {
@@ -111,4 +133,65 @@
 
 .contact button {
    margin-bottom: 6rem;
+   max-width: 26.7rem;
+}
+
+@media screen and (min-width: 1024px) {
+   .header_content {
+      display: flex;
+      flex-direction: row;
+      text-align: initial;
+   }
+
+   .header_content .info {
+      max-width: 46rem;
+   }
+
+   .image_container {
+      position: relative;
+      bottom: -6.3rem;
+   }
+
+   .header::before {
+      height: 55rem;
+   }
+
+   .services .card_container {
+      margin-top: 4rem;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      max-width: 111rem;
+      justify-content: center;
+   }
+
+   .about .container {
+      display: flex;
+      flex-direction: row-reverse;
+   }
+
+   .about .about_content {
+      width: 57.3rem;
+      margin-left: 6.7rem;
+   }
+
+   .contact .container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 14.1rem;
+   }
+
+   .contact .contact_content {
+      flex-direction: column;
+      width: auto;
+   }
+
+   .contact button {
+      margin-bottom: 0rem;
+   }
 }
