@@ -25,6 +25,7 @@ export default function Navbar() {
    const [scrollY, setScrollY] = useState(0);
 
    useEffect(() => {
+
       const handleScroll = () => {
          setScrollY(window.scrollY);
       };
@@ -48,6 +49,7 @@ export default function Navbar() {
       } else {
          navbar.classList.remove(`${styles.scroll}`)
       }
+
    })
 
    const closeMenu = () => {
@@ -55,8 +57,21 @@ export default function Navbar() {
       if (MenuToggle == true) {
          setMenuToggle(false)
       }
-
    }
+
+   useEffect(() => {
+      function resizeListener() {
+         const navbar = document.getElementById('responsive_navbar')
+         const viewportWidth = window.innerWidth;
+
+         if (viewportWidth > 1024) {
+            setMenuToggle(false)
+         }
+      }
+
+      window.addEventListener("resize", resizeListener);
+   
+   }, [])
 
    return (
       <nav id="responsive_navbar" className={styles.navbar}>
