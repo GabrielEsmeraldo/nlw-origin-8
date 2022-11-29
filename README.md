@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
- <img src="/assets/doctor-care.png" alt="" />
+ <img src="/public/images/doctor-care.png" alt="" />
 </p>
 
 ## 💻 Sobre
