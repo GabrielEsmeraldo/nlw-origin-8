@@ -1,34 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Site God Of War Ragnarok</h1>
 
-## Getting Started
+<p align="center">
+  <a href="#-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
-First, run the development server:
+<p align="center">
+ <img src="/assets/doctor-care.png" alt="" />
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## 💻 Sobre
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Um site para a pré-venda de um game chamado God Of War Ragnarok, onde além de vender ele procura contar um pouco sobre a história e os persongens.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<a href="https://nlw-origin-8-gabrielesmeraldo.vercel.app/">Site DoctorCare</a>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## ✨ Tecnologias
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-## Learn More
+- HTML
+- CSS Module
+- React
+- Next
+- JavaScript
 
-To learn more about Next.js, take a look at the following resources:
+Feito com ♥ by Gabriel Esmeraldo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
