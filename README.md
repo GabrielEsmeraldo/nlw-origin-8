@@ -11,7 +11,7 @@
 
 ## 💻 Sobre
 
-Um site para a pré-venda de um game chamado God Of War Ragnarok, onde além de vender ele procura contar um pouco sobre a história e os persongens.
+Um site para Assistência médica simplificada para todos, os médicos da DoctorCare vão além dos sintomas para tratar a causa raiz de sua doença e proporcionar uma cura a longo prazo.
 
 <a href="https://nlw-origin-8-gabrielesmeraldo.vercel.app/">Site DoctorCare</a>
 
